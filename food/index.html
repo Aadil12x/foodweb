@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foodie.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="log">
+            <img src="burger.png" alt="burger"></div>
+            <span class="humburger">&#9776</span>
+        <div class="aparent">
+            <span class="close">&times;</span>
+       <a href="#burger11">Top Up Burger</a>
+       <a href="#burger22">Spice Burger</a>
+       <a href="#burger33">Deal Of The Day</a>
+       <a href="#burger44">Finish</a>
+       
+            </div>    
+    </header>
+
+
+
+       <main>
+        <img src="burger1-1.jpeg" alt="" >
+        <img src="burger2-2.jpeg" alt="" >
+        <img src="burger1-1.jpeg" alt="" >
+        <img src="burger4-4.jpeg" alt="" >
+       </main>
+      
+       <div class="parent">
+       <enter>
+        <h1>Top Up</h1>
+        <img src="burger1.jpeg" alt=""  id="burger11"><br><br><br><br>
+        <h1>New Collaction</h1>
+        <img src="burger2.jpeg" alt="" id="burger22 "><br><br><br><br><br>
+        <h1>Fantasy Burger</h1>
+        <img src="burger1.jpeg" alt="" id="burger33"><br><br><br><br><br>
+        <h1>Wramp </h1>
+        <img src="burger4.jpeg" alt="" id="burger44">
+
+       </enter>
+       <a href="#"><h2 >Go to Top</h2></a>
+       </div>
+       
+
+
+       <script>
+        const humburger =document.querySelector(".humburger")
+        const aparent =document.querySelector(".aparent")
+        const close =document.querySelector(".close")
+
+        humburger.addEventListener("click",()=>{
+            aparent.classList.add("menu")
+        })
+
+          close.addEventListener("click",()=>{
+            aparent.classList.remove("menu")
+        })
+
+
+       </script>
+
+
+</body>
+</html>
